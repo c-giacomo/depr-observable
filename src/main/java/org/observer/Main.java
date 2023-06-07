@@ -14,7 +14,7 @@ public class Main {
         a.addObserver(obs1);
         a.addObserver(obs2);
         a.updateName();
-
+        a.updateNoChangeName();
 
     }
 }

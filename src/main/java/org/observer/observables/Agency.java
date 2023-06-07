@@ -17,4 +17,10 @@ public class Agency extends Observable {
         notifyObservers(name);
     }
 
+    public void updateNoChangeName() {
+        /* will not fire update on observers */
+        this.name = "Accenture";
+        notifyObservers(name);
+    }
+
 }
